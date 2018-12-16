@@ -1,0 +1,35 @@
+
+  let number = prompt( 'ingrese un numero' );
+  var multiplication = new Array();
+  var plus = new Array();
+
+
+  function mult(number){
+    let answer = 0;
+
+
+    for (var i = 0; i <= 10; i++) {
+
+      answer = (parseInt(number) * parseInt(i));
+
+      console.log( number + ' X ' + i + ' = ' + answer);
+      document.write( number + ' X ' + i + ' = ' + answer + '</br>' );
+      multiplication.push( answer );
+
+    }
+
+    var i = 0;
+
+    while (i<=10) {
+      answer = (parseInt(number) + parseInt(i));
+      console.log( number + ' + ' + i + ' = ' + answer );
+      document.write( number + ' + ' + i + ' = ' + answer + '</br>' );
+      plus.push( answer );
+      i++;
+    }
+
+
+
+  }
+
+  mult(number);

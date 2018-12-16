@@ -1,0 +1,40 @@
+//Constructor Example
+$( document ).ready( function(){
+
+  //#CAPTURE.
+  //get Doggy atribute.
+
+  $( '#getDoggy' ).click(function(){
+
+    let doggyName  = prompt('Name');
+    let doggyBreed = prompt('Breed');
+    let doggyAge = prompt('Age');
+
+    //#Create Object.
+
+    let dog = new __constructor( doggyName, doggyBreed, doggyAge );
+
+    //#StartConstructor
+    function __constructor( name, breed, age ){
+
+      this.dogName = name;
+      this.dogBreed = breed;
+      this.dogAge = age;
+
+    }
+    //#EndConstructor
+
+    //#
+    dog.showAttr = function(){
+
+      return  'Name: ' + this.dogName + ' Breed: ' + this.dogBreed + ' Age: ' + this.dogAge;
+
+    }
+
+    //#Print Constructor
+
+    console.log( dog.showAttr() );
+
+  });
+
+})

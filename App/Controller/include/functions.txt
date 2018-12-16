@@ -1,0 +1,32 @@
+let num1 = prompt( 'Ingrese un numero' );
+
+let operator = prompt( 'Ingrese operacion matematica ( +, -, *, / )' );
+
+let num2 = prompt( 'Ingrese un numero' );
+
+
+function operation (num1, operator, num2){
+
+  switch (operator) {
+    case '+':
+        answer = (parseInt(num1) + parseInt(num2));
+      break;
+
+    case '-':
+        answer = (parseInt(num1) - parseInt(num2));
+      break;
+
+    case '*':
+        answer = (parseInt(num1) * parseInt(num2));
+      break;
+
+    case '/':
+        answer = (parseInt(num1) / parseInt(num2));;
+      break;
+    default:
+
+  }
+
+  return answer;
+
+}

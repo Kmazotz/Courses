@@ -1,0 +1,21 @@
+
+  var man = [ 'Jose', 'Camilo', 'Deiby', 'Oscar' ];//<- array content
+
+  var woman = [ 'Maria', 'Camila', 'Andrea', 'Fernanda' ];
+
+  //names[names.length] = 'Rafa';//<- Add new value in array
+
+  var friends = [ man.concat( woman ) ];
+
+  var sort = friends.sort();
+
+  var join = sort.join( ' , ' )
+
+  document.write( sort );
+
+  //names.push( 'Rafa', 'Alejandro', 'Ana' );//<-Add new values in array
+
+  //names.pop();
+  //lenght <-
+
+  //console.log(names.length);//<- print array positions

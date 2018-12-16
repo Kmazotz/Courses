@@ -1,0 +1,37 @@
+//var name = prompt( 'Ingresa tu nombre' );
+
+//alert( 'Hello! ' + name );
+
+//document.write( 'Hello! ' + name );
+
+//console.log( 'Hello! ' + name );
+
+//Tipos de datos.
+
+//string.
+  var var1 = 12;//<- Integer.
+  var var2 = '12';//<- Integer.
+
+  //document.write( var1 + ' ' + var2 );
+//array.
+
+    //Positions      [0]    [1]     [2]     [3]
+   var MyArray = [ 'one', 'two', 'three', 'four' ];//Create array.
+
+   //document.write( MyArray[0] );//<- Print array position
+
+//object.
+
+var MyObject = {
+  color: 'black',
+  size : 12,
+  bold : 'bolder'
+};//Create Object.
+
+document.write( MyObject.color + ' / ' + MyObject.size + ' / ' + MyObject.bold);//
+//<- print Object ->  [ObjectName].[PositionName].
+
+//Boolean.
+
+var boolean1 = true;
+var boolean2 = false
